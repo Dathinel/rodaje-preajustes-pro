@@ -1,0 +1,22 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "maestro-dnxhr-hqx",
+  "name": "Maestro DNxHR HQX",
+  "description": "DNxHR HQX de 10 bits 4:2:2 en MOV con PCM de 24 bits.",
+  "category": "master",
+  "container": "mov",
+  "fastStart": false,
+  "video": {
+    "codec": "dnxhr",
+    "profile": "dnxhr_hqx",
+    "bitDepth": 10,
+    "chroma": "422",
+    "rateControl": "profile"
+  },
+  "audio": {
+    "codec": "pcm",
+    "sampleFormat": "s24",
+    "rateControl": "lossless"
+  }
+}

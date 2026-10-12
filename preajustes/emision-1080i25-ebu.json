@@ -1,0 +1,30 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "emision-1080i25-ebu",
+  "name": "Emisión HD 1080i25 (EBU R128)",
+  "description": "1920×1080 entrelazado a 25 cuadros, campo superior primero, ProRes 422 HQ y PCM de 24 bits a −23 LUFS con pico de −1 dBTP.",
+  "category": "broadcast",
+  "container": "mov",
+  "fastStart": false,
+  "video": {
+    "codec": "prores",
+    "profile": "hq",
+    "bitDepth": 10,
+    "chroma": "422",
+    "width": 1920,
+    "height": 1080,
+    "frameRate": 25,
+    "fieldOrder": "tff",
+    "rateControl": "profile"
+  },
+  "audio": {
+    "codec": "pcm",
+    "sampleFormat": "s24",
+    "rateControl": "lossless",
+    "loudness": {
+      "lufs": -23,
+      "truePeak": -1
+    }
+  }
+}

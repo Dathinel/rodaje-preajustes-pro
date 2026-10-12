@@ -1,0 +1,22 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "maestro-prores-422-hq",
+  "name": "Maestro ProRes 422 HQ",
+  "description": "ProRes 422 HQ de 10 bits con PCM de 24 bits: el maestro de siempre para seguir editando o entregar.",
+  "category": "master",
+  "container": "mov",
+  "fastStart": false,
+  "video": {
+    "codec": "prores",
+    "profile": "hq",
+    "bitDepth": 10,
+    "chroma": "422",
+    "rateControl": "profile"
+  },
+  "audio": {
+    "codec": "pcm",
+    "sampleFormat": "s24",
+    "rateControl": "lossless"
+  }
+}

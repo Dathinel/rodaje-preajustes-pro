@@ -1,0 +1,121 @@
+{
+  "formatVersion": 1,
+  "id": "rodaje-preajustes-pro",
+  "version": "1.0.0",
+  "kind": "content",
+  "name": "Preajustes profesionales",
+  "description": "Preajustes de exportación profesionales: maestros ProRes y DNxHR, entrega a televisión entrelazada con EBU R128 y ATSC A/85, maestros de cine 2K y 4K, archivo FFV1 y web con dos pasadas. Contenido propio de dominio público (CC0).",
+  "author": "Dathinel",
+  "license": "CC0-1.0",
+  "repository": "https://github.com/Dathinel/rodaje-preajustes-pro",
+  "apps": [
+    "rodaje"
+  ],
+  "items": [
+    {
+      "id": "maestro-prores-422-hq",
+      "kind": "export-preset",
+      "name": "Maestro ProRes 422 HQ",
+      "file": "preajustes/maestro-prores-422-hq.json",
+      "description": "ProRes 422 HQ de 10 bits con PCM de 24 bits: el maestro de siempre para seguir editando o entregar."
+    },
+    {
+      "id": "maestro-prores-4444",
+      "kind": "export-preset",
+      "name": "Maestro ProRes 4444",
+      "file": "preajustes/maestro-prores-4444.json",
+      "description": "ProRes 4444 de 10 bits, croma completo: para color, efectos y llaves."
+    },
+    {
+      "id": "maestro-prores-4444-alfa",
+      "kind": "export-preset",
+      "name": "ProRes 4444 con alfa",
+      "file": "preajustes/maestro-prores-4444-alfa.json",
+      "description": "ProRes 4444 con canal alfa: títulos y gráficos con fondo transparente para otro editor."
+    },
+    {
+      "id": "maestro-dnxhr-hqx",
+      "kind": "export-preset",
+      "name": "Maestro DNxHR HQX",
+      "file": "preajustes/maestro-dnxhr-hqx.json",
+      "description": "DNxHR HQX de 10 bits 4:2:2 en MOV con PCM de 24 bits."
+    },
+    {
+      "id": "maestro-dnxhr-hqx-mxf",
+      "kind": "export-preset",
+      "name": "DNxHR HQX en MXF",
+      "file": "preajustes/maestro-dnxhr-hqx-mxf.json",
+      "description": "DNxHR HQX de 10 bits en MXF OP1a, el contenedor de los flujos de Avid y de emisión."
+    },
+    {
+      "id": "maestro-dnxhr-444",
+      "kind": "export-preset",
+      "name": "Maestro DNxHR 444",
+      "file": "preajustes/maestro-dnxhr-444.json",
+      "description": "DNxHR 444 de 10 bits, croma completo, en MOV."
+    },
+    {
+      "id": "emision-1080i25-ebu",
+      "kind": "export-preset",
+      "name": "Emisión HD 1080i25 (EBU R128)",
+      "file": "preajustes/emision-1080i25-ebu.json",
+      "description": "1920×1080 entrelazado a 25 cuadros, campo superior primero, ProRes 422 HQ y PCM de 24 bits a −23 LUFS con pico de −1 dBTP."
+    },
+    {
+      "id": "emision-1080i2997-atsc",
+      "kind": "export-preset",
+      "name": "Emisión HD 1080i29,97 (ATSC A/85)",
+      "file": "preajustes/emision-1080i2997-atsc.json",
+      "description": "1920×1080 entrelazado a 29,97 cuadros, campo superior primero, ProRes 422 HQ y PCM de 24 bits a −24 LKFS con pico de −2 dBTP."
+    },
+    {
+      "id": "emision-1080p25-ebu",
+      "kind": "export-preset",
+      "name": "Emisión HD 1080p25 (EBU R128)",
+      "file": "preajustes/emision-1080p25-ebu.json",
+      "description": "1920×1080 progresivo a 25 cuadros, ProRes 422 HQ y PCM de 24 bits a −23 LUFS."
+    },
+    {
+      "id": "cine-2k-24",
+      "kind": "export-preset",
+      "name": "Cine 2K 24 fps (para DCP)",
+      "file": "preajustes/cine-2k-24.json",
+      "description": "2048×1080 a 24 cuadros en ProRes 4444 con PCM de 24 bits, con barras si la forma no coincide: el maestro del que se arma un DCP."
+    },
+    {
+      "id": "cine-4k-24",
+      "kind": "export-preset",
+      "name": "Cine 4K 24 fps (para DCP)",
+      "file": "preajustes/cine-4k-24.json",
+      "description": "4096×2160 a 24 cuadros en ProRes 422 HQ con PCM de 24 bits, con barras si la forma no coincide."
+    },
+    {
+      "id": "archivo-ffv1",
+      "kind": "export-preset",
+      "name": "Archivo sin pérdidas (FFV1)",
+      "file": "preajustes/archivo-ffv1.json",
+      "description": "FFV1 versión 3 de 10 bits 4:2:2 con CRC por porción y FLAC de 24 bits en Matroska: para guardar sin perder nada."
+    },
+    {
+      "id": "web-vp9-1080p",
+      "kind": "export-preset",
+      "name": "Web 1080p VP9 (dos pasadas)",
+      "file": "preajustes/web-vp9-1080p.json",
+      "description": "VP9 de 1080p con dos pasadas a 6 Mbps de media y Opus de 128 kbps en WebM, normalizado a −14 LUFS."
+    },
+    {
+      "id": "web-vp9-4k",
+      "kind": "export-preset",
+      "name": "Web 4K VP9 (dos pasadas)",
+      "file": "preajustes/web-vp9-4k.json",
+      "description": "VP9 de 2160p con dos pasadas a 20 Mbps de media y Opus de 160 kbps en WebM, normalizado a −14 LUFS."
+    },
+    {
+      "id": "web-av1-1080p",
+      "kind": "export-preset",
+      "name": "Web 1080p AV1 (dos pasadas)",
+      "file": "preajustes/web-av1-1080p.json",
+      "description": "AV1 por CPU de 1080p con dos pasadas a 4 Mbps y Opus de 128 kbps en MP4, normalizado a −14 LUFS."
+    }
+  ]
+}

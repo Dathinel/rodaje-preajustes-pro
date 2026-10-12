@@ -1,0 +1,22 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "maestro-dnxhr-hqx-mxf",
+  "name": "DNxHR HQX en MXF",
+  "description": "DNxHR HQX de 10 bits en MXF OP1a, el contenedor de los flujos de Avid y de emisión.",
+  "category": "master",
+  "container": "mxf",
+  "fastStart": false,
+  "video": {
+    "codec": "dnxhr",
+    "profile": "dnxhr_hqx",
+    "bitDepth": 10,
+    "chroma": "422",
+    "rateControl": "profile"
+  },
+  "audio": {
+    "codec": "pcm",
+    "sampleFormat": "s24",
+    "rateControl": "lossless"
+  }
+}

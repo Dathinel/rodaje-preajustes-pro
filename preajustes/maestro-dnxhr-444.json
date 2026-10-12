@@ -1,0 +1,22 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "maestro-dnxhr-444",
+  "name": "Maestro DNxHR 444",
+  "description": "DNxHR 444 de 10 bits, croma completo, en MOV.",
+  "category": "master",
+  "container": "mov",
+  "fastStart": false,
+  "video": {
+    "codec": "dnxhr",
+    "profile": "dnxhr_444",
+    "bitDepth": 10,
+    "chroma": "444",
+    "rateControl": "profile"
+  },
+  "audio": {
+    "codec": "pcm",
+    "sampleFormat": "s24",
+    "rateControl": "lossless"
+  }
+}

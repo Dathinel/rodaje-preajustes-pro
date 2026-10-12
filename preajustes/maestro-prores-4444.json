@@ -1,0 +1,22 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "maestro-prores-4444",
+  "name": "Maestro ProRes 4444",
+  "description": "ProRes 4444 de 10 bits, croma completo: para color, efectos y llaves.",
+  "category": "master",
+  "container": "mov",
+  "fastStart": false,
+  "video": {
+    "codec": "prores",
+    "profile": "4444",
+    "bitDepth": 10,
+    "chroma": "444",
+    "rateControl": "profile"
+  },
+  "audio": {
+    "codec": "pcm",
+    "sampleFormat": "s24",
+    "rateControl": "lossless"
+  }
+}

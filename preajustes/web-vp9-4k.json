@@ -1,0 +1,27 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "web-vp9-4k",
+  "name": "Web 4K VP9 (dos pasadas)",
+  "description": "VP9 de 2160p con dos pasadas a 20 Mbps de media y Opus de 160 kbps en WebM, normalizado a −14 LUFS.",
+  "category": "web",
+  "container": "webm",
+  "video": {
+    "codec": "vp9",
+    "width": 3840,
+    "height": 2160,
+    "rateControl": "vbr",
+    "bitrateKbps": 20000,
+    "maxBitrateKbps": 30000,
+    "passes": 2
+  },
+  "audio": {
+    "codec": "opus",
+    "rateControl": "vbr",
+    "bitrateKbps": 160,
+    "loudness": {
+      "lufs": -14,
+      "truePeak": -1
+    }
+  }
+}

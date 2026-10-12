@@ -1,0 +1,26 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "cine-4k-24",
+  "name": "Cine 4K 24 fps (para DCP)",
+  "description": "4096×2160 a 24 cuadros en ProRes 422 HQ con PCM de 24 bits, con barras si la forma no coincide.",
+  "category": "cinema",
+  "container": "mov",
+  "fastStart": false,
+  "video": {
+    "codec": "prores",
+    "profile": "hq",
+    "bitDepth": 10,
+    "chroma": "422",
+    "width": 4096,
+    "height": 2160,
+    "frameRate": 24,
+    "fit": "bars",
+    "rateControl": "profile"
+  },
+  "audio": {
+    "codec": "pcm",
+    "sampleFormat": "s24",
+    "rateControl": "lossless"
+  }
+}

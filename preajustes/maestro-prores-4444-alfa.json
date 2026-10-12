@@ -1,0 +1,23 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "maestro-prores-4444-alfa",
+  "name": "ProRes 4444 con alfa",
+  "description": "ProRes 4444 con canal alfa: títulos y gráficos con fondo transparente para otro editor.",
+  "category": "master",
+  "container": "mov",
+  "fastStart": false,
+  "video": {
+    "codec": "prores",
+    "profile": "4444",
+    "bitDepth": 10,
+    "chroma": "444",
+    "alpha": true,
+    "rateControl": "profile"
+  },
+  "audio": {
+    "codec": "pcm",
+    "sampleFormat": "s24",
+    "rateControl": "lossless"
+  }
+}

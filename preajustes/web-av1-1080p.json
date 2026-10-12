@@ -1,0 +1,27 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "web-av1-1080p",
+  "name": "Web 1080p AV1 (dos pasadas)",
+  "description": "AV1 por CPU de 1080p con dos pasadas a 4 Mbps y Opus de 128 kbps en MP4, normalizado a −14 LUFS.",
+  "category": "web",
+  "container": "mp4",
+  "video": {
+    "codec": "av1",
+    "width": 1920,
+    "height": 1080,
+    "rateControl": "vbr",
+    "bitrateKbps": 4000,
+    "maxBitrateKbps": 6000,
+    "passes": 2
+  },
+  "audio": {
+    "codec": "opus",
+    "rateControl": "vbr",
+    "bitrateKbps": 128,
+    "loudness": {
+      "lufs": -14,
+      "truePeak": -1
+    }
+  }
+}

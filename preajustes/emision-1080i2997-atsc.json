@@ -1,0 +1,30 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "emision-1080i2997-atsc",
+  "name": "Emisión HD 1080i29,97 (ATSC A/85)",
+  "description": "1920×1080 entrelazado a 29,97 cuadros, campo superior primero, ProRes 422 HQ y PCM de 24 bits a −24 LKFS con pico de −2 dBTP.",
+  "category": "broadcast",
+  "container": "mov",
+  "fastStart": false,
+  "video": {
+    "codec": "prores",
+    "profile": "hq",
+    "bitDepth": 10,
+    "chroma": "422",
+    "width": 1920,
+    "height": 1080,
+    "frameRate": "30000/1001",
+    "fieldOrder": "tff",
+    "rateControl": "profile"
+  },
+  "audio": {
+    "codec": "pcm",
+    "sampleFormat": "s24",
+    "rateControl": "lossless",
+    "loudness": {
+      "lufs": -24,
+      "truePeak": -2
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "cine-2k-24",
+  "name": "Cine 2K 24 fps (para DCP)",
+  "description": "2048×1080 a 24 cuadros en ProRes 4444 con PCM de 24 bits, con barras si la forma no coincide: el maestro del que se arma un DCP.",
+  "category": "cinema",
+  "container": "mov",
+  "fastStart": false,
+  "video": {
+    "codec": "prores",
+    "profile": "4444",
+    "bitDepth": 10,
+    "chroma": "444",
+    "width": 2048,
+    "height": 1080,
+    "frameRate": 24,
+    "fit": "bars",
+    "rateControl": "profile"
+  },
+  "audio": {
+    "codec": "pcm",
+    "sampleFormat": "s24",
+    "rateControl": "lossless"
+  }
+}

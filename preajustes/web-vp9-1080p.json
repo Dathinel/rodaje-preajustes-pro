@@ -1,0 +1,27 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "web-vp9-1080p",
+  "name": "Web 1080p VP9 (dos pasadas)",
+  "description": "VP9 de 1080p con dos pasadas a 6 Mbps de media y Opus de 128 kbps en WebM, normalizado a −14 LUFS.",
+  "category": "web",
+  "container": "webm",
+  "video": {
+    "codec": "vp9",
+    "width": 1920,
+    "height": 1080,
+    "rateControl": "vbr",
+    "bitrateKbps": 6000,
+    "maxBitrateKbps": 9000,
+    "passes": 2
+  },
+  "audio": {
+    "codec": "opus",
+    "rateControl": "vbr",
+    "bitrateKbps": 128,
+    "loudness": {
+      "lufs": -14,
+      "truePeak": -1
+    }
+  }
+}

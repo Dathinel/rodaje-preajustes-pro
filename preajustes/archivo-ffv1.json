@@ -1,0 +1,21 @@
+{
+  "format": "rodaje.exportpreset",
+  "version": 1,
+  "id": "archivo-ffv1",
+  "name": "Archivo sin pérdidas (FFV1)",
+  "description": "FFV1 versión 3 de 10 bits 4:2:2 con CRC por porción y FLAC de 24 bits en Matroska: para guardar sin perder nada.",
+  "category": "archive",
+  "container": "mkv",
+  "fastStart": false,
+  "video": {
+    "codec": "ffv1",
+    "bitDepth": 10,
+    "chroma": "422",
+    "rateControl": "lossless"
+  },
+  "audio": {
+    "codec": "flac",
+    "sampleFormat": "s24",
+    "rateControl": "lossless"
+  }
+}
