@@ -11,6 +11,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/licencia-CC0_1.0-E8833A?style=flat-square&labelColor=1D1D1D" alt="Licencia CC0 1.0"></a>
   <a href="https://github.com/Dathinel/rodaje-preajustes-pro/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-preajustes-pro?style=flat-square&labelColor=1D1D1D&color=E8833A&label=versi%C3%B3n" alt="Última versión"></a>
+  <img src="https://img.shields.io/badge/contenido-15_preajustes-E8833A?style=flat-square&labelColor=1D1D1D" alt="Contenido: 15 preajustes">
   <img src="https://img.shields.io/badge/formato-.paquete-E8833A?style=flat-square&labelColor=1D1D1D" alt="Formato .paquete">
   <a href="https://github.com/Dathinel/rodaje"><img src="https://img.shields.io/badge/para-Rodaje-E8833A?style=flat-square&labelColor=1D1D1D" alt="Para Rodaje"></a>
 </p>
@@ -29,7 +30,7 @@ El entrelazado lo hace Rodaje: compone a la tasa de campos (50 o 59,94 por segun
 
 ## Instalar en Rodaje
 
-En Rodaje, Complementos → Instalar lo baja, comprueba su firma y lo instala. A mano: descarga `rodaje-preajustes-pro-<versión>.paquete` de las [releases](https://github.com/Dathinel/rodaje-preajustes-pro/releases) y usa «Instalar desde archivo…» en Complementos. Los preajustes aparecen en Exportar, entre los de fábrica y los propios.
+En Rodaje, Complementos → Instalar lo baja, comprueba su firma y lo instala. A mano: descarga `rodaje-preajustes-pro-<versión>.paquete` de las [releases](https://github.com/Dathinel/rodaje-preajustes-pro/releases) y usa «Instalar desde archivo…» en Complementos. Los preajustes aparecen en Exportar, entre los de fábrica y los propios. Más detalles en la [guía de complementos](https://github.com/Dathinel/rodaje/blob/main/docs/guia/complementos.md).
 
 ## Construir el paquete
 
